@@ -1,0 +1,9 @@
+.footer-links-wrapper ul {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.footer-links-wrapper.open ul {
+  max-height: 1000px; /* Adjust this value to be greater than the expected height of your list */
+}
